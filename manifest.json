@@ -1,19 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "SpeedcubeDB & AlgTrainer",
-    "version": "1.0",
-    "description": "Opens two of my favorite tools for speedcubing.",
-    "permissions": ["tabs"],
-    "action": {
-      "default_popup": "main.html"
-    },
-    "background": {
-    "service_worker": "main.js"
+  "manifest_version": 3,
+  "name": "SpeedcubDB & AlgTrainer",
+  "version": "1.0",
+  "description": "Opens two of my favorite tools for speedcubing.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
   },
   "commands": {
     "open-links": {
       "suggested_key": {
-        "default": "Ctrl+."
+        "default": "Ctrl+Shift+L"
       },
       "description": "Opens two of my favorite tools for speedcubing."
     }
